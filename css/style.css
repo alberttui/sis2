@@ -1,0 +1,53 @@
+body{
+	background: url(../img/prof.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    font-family: sans-serif;
+	color: white;
+	text-shadow: 0 0 3px #00ff80;
+	text-align: center;
+}
+.prof-box{
+    width: 400px;
+	height: 400px;
+	background: rgba(0,0,0,0.4);
+	padding:40px;
+	color:white;
+	text-align: center;
+	margin:0 auto;
+	margin-top: 140px
+	margin-bottom: 140px
+}
+p{
+	font-weight: 100;
+	letter-spacing: 3;
+	font-size: 24px;
+	color: white;
+	text-align: left;
+}
+button{
+	width: 100px;
+	height: 40px;
+	background: #00ff80;
+	font-size: 18px;
+	color: white;
+	font-family: arial;
+	text-align: center;
+	border-radius: 10px;
+	line-height: 20px;
+	text-align: center;
+}
+foot{
+	text-align:center;
+}
+h2{
+    color: yellow;
+	text-align:center;
+	text-shadow: 0 0 3px #00ff80;
+}
+
+
