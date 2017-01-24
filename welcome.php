@@ -7,22 +7,12 @@
         $emailAddress = $_POST['email'];
         $password = $_POST['pwd'];
         $birthDate = $_POST['bday'];
-<<<<<<< HEAD
-=======
-
-        echo "Welcome, " . $firstName . " " . $lastName . "!<br/>".
-        'Your ID Number is ' . $studentNo . '. <br/>
-        Your password is ' . $password . '. <br/>
-        Your BirthDate is ' . $birthDate . '. <br/><br/>
-        The time is ' . date('c');
->>>>>>> origin/master
       } 
       else
       {
       	header('location: register.php');
       }
 ?>
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 	<head>
@@ -59,13 +49,4 @@
 		</hr>
         </footer>
 	</body>
-=======
-<html>
-	<head>
-		<title><?php echo $firstName . ' ' . $lastName </title>
-		<link href="css/bootstrap.min.css" rel="stylesheet" />
-	</head>
-	<body>
-    </body>
->>>>>>> origin/master
 </html>
